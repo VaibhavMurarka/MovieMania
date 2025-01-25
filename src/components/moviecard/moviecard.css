@@ -1,0 +1,34 @@
+.card:hover{
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(10px 10px 10px black);
+   transition: 0.3s ease; 
+}
+.card:hover .f{
+    opacity: 1;
+}
+.card-con{  
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.card{
+    display: flex;
+}
+.card img{
+    border-radius: 10px;
+    z-index: -1;
+}
+.f{
+    z-index: 5;
+    margin-left: -125px;
+    position: relative;
+    bottom: -265px;
+    height: 2rem;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+

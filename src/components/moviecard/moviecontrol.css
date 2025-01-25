@@ -1,0 +1,20 @@
+.ctrl-btn{
+    border: none;
+    background-color: rgba(0,0,0, 0.5);
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    padding: 5px;
+    display: inline;
+    top: 0;
+    /* z-index: 2; */
+}
+.ctrl-btn:hover{
+    color: var(--secondary-color);
+    transition: 0.4s ease-in-out;
+}
+.toasty{
+    z-index: 4;
+    position: absolute;
+}
+
+
