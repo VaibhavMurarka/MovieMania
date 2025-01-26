@@ -22,8 +22,8 @@ export const ResultCard = ({ movie }) => {
       theme: "dark",
     });
   }
-  function addToWatched(movie) {
-    addMovieToWatched(movie);
+  async function addToWatched(movie) {
+    await addMovieToWatched(movie);
     toast("Added to Watched!", {
       autoClose: 1000,
       closeOnClick: false,
