@@ -1,6 +1,6 @@
 {
   "name": "moviedb",
-  "homepage": "/MovieMania/",
+  "homepage": "https://movie-mania-sigma-henna.vercel.app",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
