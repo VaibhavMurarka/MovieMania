@@ -9,7 +9,7 @@ export const MovieCard = ({ movie, type, id }) => {
         <div className="image">
           {movie.poster_path ? (
             <img
-              src={`http://image.tmdb.org/t/p/w200${movie.poster_path}`}
+              src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
               alt={`${movie.title} Poster`}
               width="200"
               height="300"
